@@ -1690,28 +1690,10 @@
 		)
 	)
 	(junction
-		(at 217.17 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26abf8ec-0763-4665-b965-2e2d41b35dd8")
-	)
-	(junction
-		(at 129.54 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0ee7e2-8445-4020-a1df-9d0e4f84b46f")
-	)
-	(junction
 		(at 186.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a359e5c-2242-425f-8882-63680638aa50")
-	)
-	(junction
-		(at 151.13 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bc4c9c4-c9fd-4dc4-8204-6075b3727f01")
 	)
 	(junction
 		(at 151.13 95.25)
@@ -1724,12 +1706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7031b94-75d3-49c6-af7f-f6bbbbda78a6")
-	)
-	(junction
-		(at 205.74 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d212f9a2-f94b-40a2-8cfe-70f0da8f4473")
 	)
 	(junction
 		(at 95.25 118.11)
@@ -1750,26 +1726,6 @@
 			(type default)
 		)
 		(uuid "06dfbbce-0d66-4c67-99eb-69d60399f963")
-	)
-	(wire
-		(pts
-			(xy 121.92 142.24) (xy 121.92 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ebc827-6ba8-41b1-94ae-e51e8af3cc63")
-	)
-	(wire
-		(pts
-			(xy 217.17 85.09) (xy 205.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07337437-783e-4a29-a4a5-6b7885597659")
 	)
 	(wire
 		(pts
@@ -1883,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 129.54 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9468b6-1c3d-44c6-8b94-8a7e7388ab11")
-	)
-	(wire
-		(pts
 			(xy 161.29 27.94) (xy 148.59 27.94)
 		)
 		(stroke
@@ -1933,6 +1879,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 137.16) (xy 129.54 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d7a877-0ae1-4bc0-a6ff-818802a432b9")
+	)
+	(wire
+		(pts
 			(xy 168.91 27.94) (xy 179.07 27.94)
 		)
 		(stroke
@@ -1950,26 +1906,6 @@
 			(type default)
 		)
 		(uuid "60bac6ce-c826-4719-bfce-c50656c5e382")
-	)
-	(wire
-		(pts
-			(xy 92.71 142.24) (xy 121.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659b57d4-0a67-4fdf-89ae-9ac30b74acc6")
-	)
-	(wire
-		(pts
-			(xy 217.17 78.74) (xy 217.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68dc55e8-d117-46e2-a534-8549da0081de")
 	)
 	(wire
 		(pts
@@ -2063,6 +1999,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 142.24) (xy 121.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8278c934-edc1-4018-b45e-cad72fe3acd1")
+	)
+	(wire
+		(pts
 			(xy 195.58 77.47) (xy 175.26 77.47)
 		)
 		(stroke
@@ -2133,16 +2079,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 137.16) (xy 129.54 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3850914-4816-41c9-9583-b4274313b421")
-	)
-	(wire
-		(pts
 			(xy 95.25 120.65) (xy 92.71 120.65)
 		)
 		(stroke
@@ -2150,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "a3c853fa-6fcb-4779-869f-421b2bcff16f")
+	)
+	(wire
+		(pts
+			(xy 121.92 142.24) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a867aec8-6ec6-4cd2-9a48-02798b6b60e5")
 	)
 	(wire
 		(pts
@@ -2173,17 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 129.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b546de4b-a5e1-4b68-8145-c049e4c09415")
-	)
-	(wire
-		(pts
-			(xy 210.82 78.74) (xy 217.17 78.74)
+			(xy 210.82 78.74) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2145,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4f23eb-6d71-4032-b2fe-88f227484eb6")
+		(uuid "bb5f8bd2-48cc-44cf-8ff3-c25925548e1c")
 	)
 	(wire
 		(pts
@@ -2230,16 +2166,6 @@
 			(type default)
 		)
 		(uuid "ea82d2bd-b6a1-4aec-b043-c56932a6de56")
-	)
-	(wire
-		(pts
-			(xy 217.17 78.74) (xy 223.52 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa9b721-3501-491c-ad95-3489dcb4dac6")
 	)
 	(wire
 		(pts
@@ -25157,16 +25083,6 @@
 			"AVFCEr32MRhOAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "L"
-		(exclude_from_sim no)
-		(at 93.218 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "31559c50-549c-4ae9-ba67-95b949f3764c")
-	)
 	(text "Headphone input (L/R/GND)"
 		(exclude_from_sim no)
 		(at 73.66 130.048 0)
@@ -25186,26 +25102,6 @@
 			)
 		)
 		(uuid "7280e3d8-03e5-4ad4-b2be-adc4a9884e72")
-	)
-	(text "GND\n"
-		(exclude_from_sim no)
-		(at 94.488 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77f209bd-e585-4811-b6a0-729c63de9ad1")
-	)
-	(text "R"
-		(exclude_from_sim no)
-		(at 93.218 138.938 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aa9476ba-faa1-4853-8063-98bc92367c47")
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
