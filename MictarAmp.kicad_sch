@@ -1688,12 +1688,162 @@
 				)
 			)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10ff1afd-e12a-4f0d-95ed-054eacd0edf2")
 	)
 	(junction
 		(at 186.69 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a359e5c-2242-425f-8882-63680638aa50")
+	)
+	(junction
+		(at 129.54 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "683ceab4-cf18-4215-aab2-fb8fdb02331f")
+	)
+	(junction
+		(at 205.74 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "906a14f6-8bad-4b6b-a6d4-73801fdc70d7")
 	)
 	(junction
 		(at 151.13 95.25)
@@ -1846,6 +1996,26 @@
 			(type default)
 		)
 		(uuid "4154ebc6-43c2-4520-8ea6-fe30db142b10")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac3dc96-dd4b-4a55-bcb3-13aabef1e5d9")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4ab71a-a268-4643-a94c-b2e77a9785bd")
 	)
 	(wire
 		(pts
@@ -2146,6 +2316,26 @@
 			(type default)
 		)
 		(uuid "bb5f8bd2-48cc-44cf-8ff3-c25925548e1c")
+	)
+	(wire
+		(pts
+			(xy 205.74 115.57) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedbb801-6ece-4e8a-ba72-b66a0e55189e")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 160.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6630ca6-22c8-4fa1-b47f-e7cb26c649d3")
 	)
 	(wire
 		(pts
@@ -25753,6 +25943,72 @@
 			(project ""
 				(path "/baae048e-34bc-426f-a829-0c3587a71fd5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 160.02 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf11f51-2274-45b0-8603-376c737ef9ca")
+		(property "Reference" "#PWR01"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 160.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de003fc2-c81f-4108-9414-c4febbb5c5c4")
+		)
+		(instances
+			(project ""
+				(path "/baae048e-34bc-426f-a829-0c3587a71fd5"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
